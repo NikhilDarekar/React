@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.top_btn{
+    display: flex;
+    gap: 32px;
+
+}
+.contact_form{
+    display: flex;
+    flex-direction: column ;
+    gap: 24px;
+    margin-left: -100px;
+}
+.contact_form form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.form_control input{
+    width: 420px;
+    height: 40px;
+    padding: 0 1px;
+    
+}
+.form_control label{
+    position: absolute;
+    top: -12px;
+    
+    left: 10px;
+    color: black;
+    background-color: white;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.contact_image {
+  flex: 1;              /* let it take available space in flex layout */
+  display: flex;        /* so we can center the image inside */
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_image img {
+  width: 40vw;   
+  height: 40vw;       /* half of the viewport width */         /* keep aspect ratio */
+  object-fit: contain;  
+  margin-bottom: 20px;
+  margin-top: -59px;
+  margin-left: 70px;
+  margin-right: 0px;
+}
